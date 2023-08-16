@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "test",
+      "setup": "",
+      "run": "cd testPlayground2.playground && swift Contents.swift",
+      "input": "1\r\n1",
+      "output": "2",
+      "comparison": "exact",
+      "timeout": 2,
+      "points": 10
+    }
+  ]
+}
