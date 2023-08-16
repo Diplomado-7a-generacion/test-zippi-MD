@@ -3,8 +3,8 @@
     {
       "name": "test",
       "setup": "",
-      "run": "cd testPlayground2.playground && swift Contents.swift",
-      "input": "1\r\n1",
+      "run": "cd testPlayground2.playground && swift Contents.swift 1 1",
+      "input": "",
       "output": "2",
       "comparison": "exact",
       "timeout": 2,
