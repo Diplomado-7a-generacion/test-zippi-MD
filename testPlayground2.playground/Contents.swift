@@ -1,5 +1,6 @@
 import Foundation
 
-var greeting = "Hello, playground"
+let firstArgument = CommandLine.arguments[1]
+let secondArgument = CommandLine.arguments[2]
 
-print(3)
+print(firstArgument + secondArgument)
