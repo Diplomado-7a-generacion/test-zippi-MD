@@ -1,6 +1,6 @@
 import Foundation
 
-let firstArgument = CommandLine.arguments[1]
-let secondArgument = CommandLine.arguments[2]
+let firstArgument: Int = Int(CommandLine.arguments[1])!
+let secondArgument: Int = Int(CommandLine.arguments[2])!
 
 print(firstArgument + secondArgument)
